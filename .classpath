@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="jfugue-4.0.3/jfugue-4.0.3.jar" sourcepath="jfugue-4.0.3/jfugue-4.0.3-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Musicia/jfugue-4.0.3/jfugue-4.0.3-javadoc.zip!/doc"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="org/jfugue/Note"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="junit4.9/junit-4.9.jar" sourcepath="junit4.9/junit-4.9-src.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/F:/JAVA-Workspace/Musicia/junit4.9/javadoc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="guice-3.0/guice-3.0/aopalliance.jar" sourcepath="guice-3.0/guice-3.0-src.zip"/>
+	<classpathentry kind="lib" path="guice-3.0/guice-3.0/guice-3.0.jar" sourcepath="guice-3.0/guice-3.0-src.zip"/>
+	<classpathentry kind="lib" path="guice-3.0/guice-3.0/javax.inject.jar" sourcepath="guice-3.0/guice-3.0-src.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
